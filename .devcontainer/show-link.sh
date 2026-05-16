@@ -5,7 +5,7 @@ if [ -z "$UUID" ]; then echo "[g2ray] UUID پیدا نشد."; exit 1; fi
 SNI="${CODESPACE_NAME}-443.app.github.dev"
 
 # ساخت لینک VLESS با استفاده از دامنه مستقیم گیت‌هاب کداسپیس و پروتکل WebSocket
-LINK="vless://${UUID}@${SNI}:443?encryption=none&security=tls&sni=${SNI}&host=${SNI}&fp=chrome&allowInsecure=1&type=ws&path=%2F#reza"
+LINK="vless://${UUID}@${SNI}:443?encryption=none&security=tls&sni=${SNI}&host=${SNI}&fp=chrome&allowInsecure=1&type=ws&path=%2F#sahar"
 
 echo ""
 echo "================================================"
