@@ -12,7 +12,7 @@
           "geosite:geolocation-!cn"
         ],
         "queryStrategy": "UseIP"
-          },
+      },
       "8.8.8.8",
       "localhost"
     ],
@@ -27,19 +27,22 @@
       "settings": {
         "clients": [
           {
-            "id": "d97092bd-9f58-455b-ae8d-51cb922185cd",
+            "id": "daa126ff-0c2a-4ece-b000-055a515c2fe8",
             "flow": "",
             "level": 0,
-            "email": "user@sahar"
+            "email": "user@Rezzz"
           }
         ],
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "xhttp",
         "security": "none",
-        "wsSettings": {
-          "path": "/"
+        "xhttpSettings": {
+          "mode": "packet-up",
+          "path": "/",
+          "maxUploadSize": 1000000,
+          "maxConcurrentUploads": 10
         }
       },
       "sniffing": {
